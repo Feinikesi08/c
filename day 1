@@ -1,0 +1,16 @@
+#include <stdio.h>
+int a = 100;
+int main()
+{
+	//printf("the world\n");
+	//double pi = 3.14;
+	//printf("%lf\n", pi);
+	//printf("%d", sizeof(65545));
+	//int age = 19;
+	//int age = 20;
+	//printf("%d岁，是学生\n",age);
+	{
+		int b = 200;
+	}
+	printf("%d\n", b);
+	return 0

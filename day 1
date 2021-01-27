@@ -1,7 +1,8 @@
 #include <stdio.h>
-int a = 100;
+//int a = 100;
 int main()
 {
+	//char,short,int,long,long long,float,double -申请内存
 	//printf("the world\n");
 	//double pi = 3.14;
 	//printf("%lf\n", pi);
@@ -9,8 +10,15 @@ int main()
 	//int age = 19;
 	//int age = 20;
 	//printf("%d岁，是学生\n",age);
-	{
-		int b = 200;
-	}
-	printf("%d\n", b);
-	return 0
+	//{
+		//int b = 200;
+	//}
+	//printf("%d\n", b);
+	int a, b, s;
+	scanf_s("%d%d", &a, &b);
+	s = a + b;
+	printf("%d", s);
+	//作用域的相关
+	//局部变量，全局变量
+	return 0;
+}
